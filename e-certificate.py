@@ -46,8 +46,8 @@ def certificatetemplate(name):
 def sendmail(pngname,receiverid):
     smtp_server = "smtp.gmail.com"
     port = 587 
-    sender_email = "xxx@gmail.com"
-    password = "xxxx"
+    sender_email = input('enter your emailid')
+    password = input('enter your password')
     context = ssl.create_default_context()
 
     try:
