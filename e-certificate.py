@@ -59,6 +59,8 @@ def sendmail(pngname,receiverid):
         f= open(pngname, 'rb')
         msg = MIMEMultipart()
         msg['Subject'] = 'sending mail through python'
+	msg['From']=sender_email
+	msg['To']=receiverid
         body="your certificate has been attached here"
         msgText = MIMEText('<b>%s</b>'%(body),'html')  
         msg.attach(msgText) 
