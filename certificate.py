@@ -1,5 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
-import pandas as pd
+
 
 
 def coupons(names: str, certificate: str, font_path: str):
