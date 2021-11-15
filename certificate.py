@@ -1,7 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
 
-
-
 def coupons(names: str, certificate: str, font_path: str):
 	
 		
